@@ -8,7 +8,9 @@ Attempt to solve the Advent of Code challenges with deno.
 - Sqlite3
 - Logged in to Advent of Code
 
-## The fun party
+## The fun part
+
+Rename `.env.example` to `.env`
 
 ### Get your session cookie
 
