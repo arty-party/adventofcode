@@ -1,0 +1,28 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "lint": {
+    "rules": {
+      "include": [
+        "camelcase",
+        "no-sync-fn-in-async-fn",
+        "single-var-declarator",
+        "verbatim-module-syntax",
+        "no-console"
+      ]
+    }
+  },
+  "exclude": [
+    ".git",
+    "docs"
+  ]
+}

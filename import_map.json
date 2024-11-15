@@ -1,0 +1,7 @@
+{
+    "imports": {
+        "@deno/doc": "jsr:@deno/doc@0.148",
+        "@std/assert": "jsr:@std/assert@1",
+        "@std/collections": "jsr:@std/collections"
+    }
+}

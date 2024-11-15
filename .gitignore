@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+**/cov/
+deno.lock
+coverage/
+docs/
