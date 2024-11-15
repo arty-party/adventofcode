@@ -1,7 +1,7 @@
 {
   "tasks": {
-    "cov:helpers": "deno test --coverage ./helpers/*_test.ts",
     "test:helpers": "deno test --allow-env ./helpers/**/*_test.ts",
+    "test:aoc": "deno test --allow-env ./aoc_*/**/*_test.ts",
     "add:aoc-token": "deno run --allow-read --allow-write --allow-env --allow-run ./helpers/get_aoc_session.ts",
     "get:aoc-input": "deno run --allow-net --allow-env --env=.env --allow-write ./helpers/input.ts"
   },
