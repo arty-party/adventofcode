@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "cov:helpers": "deno test --coverage ./helpers/*_test.ts",
+    "test:helpers": "deno test ./helpers/*_test.ts"
   },
   "importMap": "./import_map.json",
   "compilerOptions": {
