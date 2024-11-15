@@ -6,6 +6,7 @@ Attempt to solve the Advent of Code challenges with deno.
 
 - Deno
 - Sqlite3
+- Firefox :^)
 - Logged in to Advent of Code
 
 ## The fun part
