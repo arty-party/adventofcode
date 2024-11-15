@@ -1,6 +1,7 @@
 import { assertEquals, assertRejects } from "jsr:@std/assert";
 import { getInput, parseLines, parseNumbers } from "./input.ts";
 
+// https://en.wikipedia.org/wiki/Topological_sorting
 Deno.test("input helper", async (t) => {
   await t.step("parseLines splits input correctly", () => {
     const input = "line1\nline2\nline3\n";
