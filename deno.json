@@ -1,9 +1,15 @@
 {
   "tasks": {
     "cov:helpers": "deno test --coverage ./helpers/*_test.ts",
-    "test:helpers": "deno test ./helpers/*_test.ts"
+    "test:helpers": "deno test ./helpers/*_test.ts",
+    "add:Aoc-token": "deno run --allow-read --allow-write --allow-env --allow-run ./helpers/get_aoc_session.ts",
+    "get:Input": "deno run --allow-net --allow-env --env=.env --allow-write ./helpers/input.ts"
   },
-  "importMap": "./import_map.json",
+  "imports": {
+    "@deno/doc": "jsr:@deno/doc",
+    "@std/assert": "jsr:@std/assert",
+    "@std/collections": "jsr:@std/collections"
+  },
   "compilerOptions": {
     "strict": true,
     "exactOptionalPropertyTypes": true,
