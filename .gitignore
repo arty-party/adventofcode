@@ -4,3 +4,4 @@
 deno.lock
 coverage/
 docs/
+.env
