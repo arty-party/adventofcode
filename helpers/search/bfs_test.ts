@@ -3,7 +3,6 @@ import { bfs, createGraph, type Graph } from "./bfs.ts";
 
 Deno.test("BFS - Basic Graph Navigation", () => {
   const graph: Graph = createGraph();
-  // Add nodes and their connections
   graph.set(1, new Set([2, 3]));
   graph.set(2, new Set([1, 4]));
   graph.set(3, new Set([1, 4]));
@@ -14,7 +13,6 @@ Deno.test("BFS - Basic Graph Navigation", () => {
 
 Deno.test("BFS - String Nodes", () => {
   const graph: Graph = createGraph();
-  // Add nodes and their connections
   graph.set("A", new Set(["B", "C"]));
   graph.set("B", new Set(["A", "D"]));
   graph.set("C", new Set(["A", "D"]));
@@ -25,7 +23,6 @@ Deno.test("BFS - String Nodes", () => {
 
 Deno.test("BFS - Disconnected Components", () => {
   const graph: Graph = createGraph();
-  // Create two separate components
   graph.set(1, new Set([2]));
   graph.set(2, new Set([1]));
   graph.set(3, new Set([4]));

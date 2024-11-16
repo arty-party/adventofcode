@@ -1,5 +1,3 @@
-// https://en.wikipedia.org/wiki/Breadth-first_search
-
 export type Node = string | number;
 export type Graph = Map<Node, Set<Node>>;
 
@@ -7,6 +5,7 @@ export function createGraph(): Graph {
   return new Map();
 }
 
+// https://en.wikipedia.org/wiki/Breadth-first_search
 export function bfs(graph: Graph, start: Node, target: Node): Node[] {
   const visited = new Set<Node>();
   const queue: Node[] = [start];
