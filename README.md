@@ -22,5 +22,5 @@ deno task add:aoc-token
 ### Get your daily input
 
 ```bash
-deno task add:aoc-input <day> <year>
+deno task get:aoc-input <day> <year>
 ```
