@@ -1,4 +1,4 @@
-import { assertEquals, assertRejects } from "jsr:@std/assert";
+import { assertEquals, assertRejects } from "@std/assert";
 import { getInput, parseLines, parseNumbers } from "./get_aoc_input.ts";
 
 // https://en.wikipedia.org/wiki/Topological_sorting

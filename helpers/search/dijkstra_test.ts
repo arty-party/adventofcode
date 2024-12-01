@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert";
+import { assertEquals } from "@std/assert";
 import { addEdge, createGraph, dijkstra } from "./dijkstra.ts";
 
 Deno.test("Dijkstra's Algorithm", () => {

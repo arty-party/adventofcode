@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert";
+import { assertEquals } from "@std/assert";
 import { findEvenNumberDigits } from "./find_even_number.ts";
 
 Deno.test("findEvenNumberDigits", async (t) => {

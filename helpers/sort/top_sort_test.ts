@@ -1,4 +1,4 @@
-import { assertEquals, assertFalse } from "jsr:@std/assert";
+import { assertEquals, assertFalse } from "@std/assert";
 import { addEdge, createGraph, topologicalSort } from "../sort/top_sort.ts";
 
 Deno.test("Topological Sort - Empty Graph", () => {

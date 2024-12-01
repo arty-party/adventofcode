@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert";
+import { assertEquals } from "@std/assert";
 import { containsDuplicate } from "./contains_duplicate.ts";
 
 Deno.test("containsDuplicate - with duplicates", () => {

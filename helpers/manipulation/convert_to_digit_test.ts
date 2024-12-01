@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert";
+import { assertEquals } from "@std/assert";
 import { convertToDigit, findFirstAndLastDigit } from "./convert_to_digit.ts";
 
 Deno.test("convertToDigit", async (t) => {

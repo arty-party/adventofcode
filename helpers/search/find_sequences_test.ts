@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert";
+import { assertEquals } from "@std/assert";
 import { findSequentialDigits } from "./find_sequences.ts";
 
 Deno.test("findSequentialDigits", async (t) => {
