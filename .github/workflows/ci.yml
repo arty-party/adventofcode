@@ -43,3 +43,6 @@ jobs:
 
       - name: Run tests for helpers
         run: deno task test:helpers
+
+      - name: Run tests for solutions
+        run: deno task test:aoc
