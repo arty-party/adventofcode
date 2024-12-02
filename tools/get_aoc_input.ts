@@ -22,7 +22,10 @@ export async function getInput(day: number, year: number): Promise<string> {
 }
 
 export function parseLines(input: string): string[] {
-  return input.trim().split("\n");
+  return input
+    .trim()
+    .split("\n")
+    .filter((line: string) => line.length > 0);
 }
 
 export function parseNumbers(input: string): number[] {

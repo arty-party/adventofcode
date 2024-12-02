@@ -5,7 +5,6 @@ function parseInput(input: any): [number[], number[]] {
   input
     .trim()
     .split("\n")
-    .filter((line: any) => line.length > 0)
     .map((l: any) => l.split(/\s+/).map(Number))
     .forEach((l: any) => {
       leftSide.push(l[0]);
