@@ -4,7 +4,7 @@ import { findXmasVariants, findXShapedXMas } from "./solution.ts";
 
 Deno.test("XMas variants", async (t) => {
   await t.step("Demo input", () => {
-    const data = readFromInput("demo_input", "04")
+    const data = readFromInput("example", "04")
       .trim()
       .split("\n")
       .map((line) => [...line]);
@@ -21,7 +21,7 @@ Deno.test("XMas variants", async (t) => {
 
 Deno.test("X shaped XMas", async (t) => {
   await t.step("Demo input", () => {
-    const data = readFromInput("demo_input", "04")
+    const data = readFromInput("example", "04")
       .trim()
       .split("\n")
       .map((line) => [...line]);

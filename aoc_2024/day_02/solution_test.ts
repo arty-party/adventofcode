@@ -7,7 +7,7 @@ import {
 
 Deno.test("Check for safe reports", async (t) => {
   await t.step("Demo input", () => {
-    const input = readFromInput("demo_input", "02");
+    const input = readFromInput("example", "02");
     assertEquals(checkForSafeReports(input), 2);
   });
 
@@ -19,7 +19,7 @@ Deno.test("Check for safe reports", async (t) => {
 
 Deno.test("Check for actually safe reports", async (t) => {
   await t.step("Demo input", () => {
-    const input = readFromInput("demo_input", "02");
+    const input = readFromInput("example", "02");
     assertEquals(checkForActuallySafeReports(input), 4);
   });
   await t.step("Solution input", () => {

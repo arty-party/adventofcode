@@ -4,7 +4,7 @@ import { caluclate_distance, find_similarity } from "./solution.ts";
 
 Deno.test("caluclate_distance", async (t) => {
   await t.step("Demo input", () => {
-    const input = readFromInput("demo_input", "01");
+    const input = readFromInput("example", "01");
     assertEquals(caluclate_distance(input), 11);
   });
 
@@ -16,7 +16,7 @@ Deno.test("caluclate_distance", async (t) => {
 
 Deno.test("find_similarity", async (t) => {
   await t.step("Demo input", () => {
-    const input = readFromInput("demo_input", "01");
+    const input = readFromInput("example", "01");
     assertEquals(find_similarity(input), 31);
   });
 
